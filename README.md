@@ -9,6 +9,13 @@ Copy file dtb ke /dtb/armbian
 
 note : dtb sudah disesuaikan untuk RAM 2gb, untuk ram 1gb tidak perlu copy dtb
 
+## Boot Dari STB
+Pasang MicroSD/FD ke STB, pastikan STB sudah Root.
+Buka Terminal Emulator, ketik perintah berikut:
+reboot update
+
+Tunggu sampai Armbian selesai loading dan meminta untuk membuat Password root baru.
+
 ## Setting Armbian  
 Setting WiFi, jam dll  
 Login Armbian -> input command
